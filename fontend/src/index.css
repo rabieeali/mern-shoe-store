@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-purple {
+  color: rgb(138, 43, 226);
+}
+.bg-purple {
+  background-color: rgb(138, 43, 226);
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+.btn {
+  border-radius: 0.25rem;
+}
+.activeLink {
+  background-color: rgb(138, 43, 226);
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff !important;
+}
+.border-radius-half {
+  border-radius: 0.5rem;
+}
+.border-radius-1 {
+  border-radius: 1rem !important;
+}
+.border-radius-2 {
+  border-radius: 2rem !important;
+}
+.horizontal-card {
+  max-height: 15rem;
+}
+.btn-purple {
+  background-color: rgb(138, 43, 226);
+  color: #fff;
+  transition: all ease-in-out 0.4s;
+}
+.btn-purple:hover {
+  letter-spacing: 3px;
+  color: #fff;
+}
+.btn-sm {
+  border: none;
+  border-radius: 5px;
+}
+
+.Toastify__toast-body {
+  font-family: "Poppins";
+  font-size: 0.85rem;
+}
+.Toastify__toast--success {
+  background-color: rgb(211, 255, 224) !important;
+  margin: 10px;
+}
+.Toastify__toast--error {
+  background-color: rgb(255, 211, 211) !important;
+  margin: 10px;
+}
+.Toastify__toast--info {
+  background-color: rgb(211, 228, 255) !important;
+  margin: 10px;
+}
+
+.btn-discount {
+  top: 5px;
+  right: 3px;
+  font-size: 12px;
+}
+.text-grey {
+  color: #999;
+}
+#discount::placeholder {
+  font-size: 7px;
+}
+.signup-input::placeholder {
+  color: #999;
+  font-size: 12px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.bg-form {
+  background-color: rgb(59, 14, 51);
+}
+.text-red {
+  color: rgb(255, 0, 0);
+}
+.signup-btn {
+  padding: 7px;
+  border-radius: 0.25rem;
+  background-color: rgb(143, 21, 115);
+  border: none;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.4s;
+}
+
+.signup-btn:hover {
+  letter-spacing: 3px;
+}
+.signup-btn:disabled {
+  pointer-events: none;
+  background-color: rgb(123, 78, 112);
+  opacity: 0.3;
+}
+.signup-link {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: rgb(117, 117, 249);
+}
+.login-link {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: rgb(117, 117, 249);
+}
+.login-link:hover,
+.signup-link:hover {
+  color: #fff;
+}
+.login-signup:hover {
+  background-color: rgb(138, 43, 226);
+  border-radius: 0.5rem;
+  color: #fff !important;
+}
+.h-8 {
+  height: 8rem;
+}
+.img-checkout {
+  height: 6rem;
+  border-radius: 2rem;
+}
+
+.bg-blur {
+  backdrop-filter: blur(6px) !important;
+}
+.off {
+  position: absolute;
+  background-color: orange;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  top: 10px;
+  right: 10px;
+}
+.custom-img {
+  padding: 30px;
+  border-radius: 4rem;
+}
+.swal2-title {
+  font-size: 1.3em;
+  margin: 1rem;
+}
+
+.bg-mellow-yellow {
+  background-color: #ffeaa0;
+}
+
+.bg-footer {
+  background-color: #173243;
+}
+
+.media {
+  cursor: pointer;
+}
+.media:nth-child(1):hover {
+  cursor: pointer;
+  color: #6eb7e4;
+}
+.media:nth-child(2):hover {
+  cursor: pointer;
+  color: #2a827a;
+}
+.media:nth-child(3):hover {
+  cursor: pointer;
+  color: #e7e76c;
+}
+.z-99 {
+  z-index: 99;
+  color: #e76c6c;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
